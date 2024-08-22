@@ -1,0 +1,57 @@
+body {
+  background-color: white;
+}
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+}
+.line {
+  display: flex;
+  gap: 10px;
+  margin: auto;
+}
+.tile {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.correct {
+  background-color: lightgreen;
+}
+.close {
+  background-color: yellow;
+}
+.incorrect {
+  background-color: lightgrey;
+}
+
+.header {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+.retry {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.solution {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.solution span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
